@@ -26,7 +26,7 @@ function generateTopicItem(listDOM, items) {
   for (let t of items) {
     const topicItem = document.createElement("li");
     topicItem.classList =
-      "rounded-full bg-violet-600 px-4 flex items-center text-white h-8 ";
+      "rounded-full bg-purple-700 px-4 flex items-center text-white h-8 ml-2";
     topicItem.innerText = t;
     listDOM.append(topicItem);
   }
@@ -49,9 +49,8 @@ function initLoad() {
   generateTopicItem(topicDOMUL, topicItems);
 }
 
-// GENERTE NEW QHKOTE
+// GENERATE NEW QUOTE
 function btnNewQuote() {
-  console.log("HEO");
   const randIndex = getRandomInt();
   let newQuote = QUOTES[randIndex];
 
