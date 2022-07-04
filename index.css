@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=The+Nautigal&display=swap');
+
+html {
+  font-family: "Oswald", sans-serif !important;
+}
+
+.container{
+  margin-top: 5%;
+}
+.header{
+  font-family: 'Dancing Script', cursive;
+}
+
+.bt{
+  margin-left: 30%;
+}
+
+.h1{
+  font-family: 'Lobster',cursive;
+  font-size: xx-large;
+  color: purple;
+  margin-bottom: 5%;
+  margin-left: 18%;
+}
+
